@@ -28,7 +28,7 @@ public class Journey { private int journeyID;
         transportMode = transportMode.toLowerCase();
         if (!transportMode.equals("train") && !transportMode.equals("bus") && !transportMode.equals("tram"))
         {
-            throw new IllegalArgumentException("Wrong mode of transport. Must be 'train', 'bus', or 'tram'.");
+            throw new IllegalArgumentException("You have entered wrong mode of transport. Must be 'train', 'bus', or 'tram'.");
         }
         this.transportMode = transportMode;
     }
@@ -42,7 +42,7 @@ public class Journey { private int journeyID;
     {
         if (startOfJourney < 1 || startOfJourney > 10)
         {
-            throw new IllegalArgumentException("Start of journey must be between 1 and 10.");
+            throw new IllegalArgumentException("Start of the journey must be between 1 and 10.");
         }
         this.startOfJourney = startOfJourney;
     }
