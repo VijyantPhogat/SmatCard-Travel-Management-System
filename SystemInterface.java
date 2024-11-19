@@ -52,7 +52,7 @@ public class SystemInterface {private static Scanner ab = new Scanner(System.in)
                     System.out.println("Exiting program...");
                     break;
                 default:
-                    System.out.println("Invalid option. Please enter a number between 1 and 9.");
+                    System.out.println("You choose an Invalid option. Please enter a number between 1 and 9.");
             }
         } while (option != 9);
     }
