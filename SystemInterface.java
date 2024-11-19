@@ -11,11 +11,11 @@ public class SystemInterface {private static Scanner ab = new Scanner(System.in)
         int option;
         do {
             System.out.println("* * * * || Smartcard Travel Management System || * * * *");
-            System.out.println("1. Add Smartcard");
-            System.out.println("2. Add Journey");
-            System.out.println("3. Delete Smartcard");
-            System.out.println("4. Delete Journey");
-            System.out.println("5. List Smartcards");
+            System.out.println("1. Add a Smartcard");
+            System.out.println("2. Add a Journey");
+            System.out.println("3. Delete a Smartcard");
+            System.out.println("4. Delete a Journey");
+            System.out.println("5. List a Smartcards");
             System.out.println("6. List Journeys on a Smartcard");
             System.out.println("7. List Journeys by Transport Mode");
             System.out.println("8. Summary of Fares");
